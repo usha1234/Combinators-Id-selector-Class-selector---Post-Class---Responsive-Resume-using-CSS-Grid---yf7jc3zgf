@@ -40,6 +40,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     padding: 0.8rem;
+    letter-spacing: 0.02px;
     color:white;
 }
 .designation{
@@ -73,7 +74,8 @@ i{
 .skills{
     font-size: 0.75em;
     padding: 1rem 0.5rem 1rem 0.5rem;
-    text-align: left;
+    text-align: center;
+    text-transform: uppercase;
 }
 .skills-title{
     text-align: center;
