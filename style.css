@@ -127,7 +127,7 @@ i{
         grid-template-columns: repeat(1, 1fr);
     }
 }
-@media screen and (max-width:673px){
+@media screen and (min-width:0px) and (max-width:673px){
     .main-content{
         grid-template-columns: repeat(1, 1fr);
     }
