@@ -79,7 +79,7 @@ i{
     text-align: center;
 }
 .progress-bar{
-    border: solid;
+    border: 1px white solid;
     height: 4px;
 }
 .skill-name{
