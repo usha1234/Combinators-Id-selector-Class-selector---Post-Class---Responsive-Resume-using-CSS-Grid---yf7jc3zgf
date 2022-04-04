@@ -4,6 +4,120 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
-
+body{
+    background-color: #a6abad;
+}
+.left-section{
+    grid-column: span 1;
+    background-color: #242531;
+}
+.right-section{
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
+}
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+.left-content{
+    padding : 1rem;
+}
+.profile-image{
+    display: block;
+    margin : auto;
+    border : 5px white solid;
+    border-radius: 30px;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    color:white;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    color:white;
+}
+.description{
+    font-size: 0.75em;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.social-media .icon{
+    color: blue;
+    width: 20px;
+    margin-left: 30px;
+}
+.social-media{
+    display: flex;
+}
+.personal-details .icon{
+    /* color: blue; */
+    margin-top: 8px;
+}
+i{
+    color: blue;
+}
+.skills{
+    font-size: 0.75em;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    text-align: left;
+}
+.skills-title{
+    text-align: center;
+}
+.progress-bar{
+    border: solid;
+    height: 4px;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.skill-item{
+    font-size: 0.75em;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    text-align: left;
+}
+.right-main-content{
+    padding: 2rem 3rem 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700px;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    color: black;
+}
+.para{
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.education-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+.education-title{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700px;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    color: black;
+}
 /* Write CSS code below */
